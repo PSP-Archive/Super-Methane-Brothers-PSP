@@ -1,0 +1,7 @@
+cc convert.c -o convert
+./convert splash.bmp splash > splash.cpp 
+./convert intro1.bmp intro1 >> splash.cpp 
+./convert intro2.bmp intro2 >> splash.cpp 
+./convert intro3.bmp intro3 >> splash.cpp 
+make clean
+make 
